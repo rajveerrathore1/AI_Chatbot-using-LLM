@@ -15,13 +15,13 @@ This system supports 5 intelligent domains:
 ⚖️ Legal (non-advisory explanations)
 💬 General conversation
 
-## 🌐 Live Deployment
+# 🌐 Live Deployment
 
 👉 🚀 Open the Live AI Chatbot
 
 # 🎯 Key Features
 
-🧠 1. Domain-Aware Multi-Agent System
+## 🧠 1. Domain-Aware Multi-Agent System
 
 Every query is classified into one expert domain:
 
@@ -33,7 +33,7 @@ Legal	Legal concepts (educational only)
 General	Normal conversation & reasoning
 Each domain uses a custom engineered prompt template for structured, safe, high-quality responses.
 
-📚 2. RAG Pipeline (PDF/TXT Upload + FAISS Retrieval)
+## 📚 2. RAG Pipeline (PDF/TXT Upload + FAISS Retrieval)
 
 Supports:
 
@@ -45,7 +45,7 @@ FAISS vector indexing
 Top-K semantic retrieval
 ⭐ Hugging Face Transformers are used for embeddings only Inference is done using OpenAI GPT models, not HF models.
 
-💻 3. Modern React Frontend (Vite)
+## 💻 3. Modern React Frontend (Vite)
 
 UI includes:
 
@@ -59,7 +59,7 @@ UI includes:
 🔔 Toast notifications
 Frontend lives in /frontend/src/.
 
-⚡ 4. FastAPI Backend
+## ⚡ 4. FastAPI Backend
 
 Endpoints:
 
@@ -68,7 +68,8 @@ POST	/chat	Main chat interface
 POST	/upload	Document ingestion (RAG)
 GET	/health	Health check
 WS	/stream	Streamed responses
-🧩 5. Clean Modular Architecture
+
+## 🧩 5. Clean Modular Architecture
 
 Includes:
 
@@ -80,7 +81,7 @@ OpenAI LLM wrapper
 Context manager
 Everything is clean, extendable, and production-ready.
 
-📦 Tech Stack
+# 📦 Tech Stack
 
 Frontend
 
