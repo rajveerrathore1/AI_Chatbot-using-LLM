@@ -15,7 +15,7 @@ This system supports 5 intelligent domains:
 ⚖️ Legal (non-advisory explanations)
 💬 General conversation
 
-🌐 Live Deployment
+# 🌐 Live Deployment
 
 👉 🚀 Open the Live AI Chatbot
 
