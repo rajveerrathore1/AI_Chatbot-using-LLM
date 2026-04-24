@@ -4,7 +4,7 @@ A full-stack LLM-powered AI chatbot built with a modern, scalable architecture.
 
 
 # 🌐 Live Deployment
-##👉 🚀 Open the Live AI Chatbot(https://your-live-link.com)
+👉 🚀 Open the Live AI Chatbot(https://ai-chatbot-using-ll-ms.vercel.app/)
 
 
 # 🧠 Core Stack 
